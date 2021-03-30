@@ -160,7 +160,7 @@ export default {
         }
     },
     methods: { // functiondır yani object
-        postData(e){
+        postForm(e){
             this.axios.post("//jsonplaceholder.typicode.com/posts",this.posts) //örnek bir localhost veriler buraya gider
             .then((result)=>{
                 console.warn(result)
